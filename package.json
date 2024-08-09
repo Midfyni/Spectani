@@ -1,4 +1,11 @@
 {
+  "name": "mqtt-publisher-app",
+  "version": "1.0.0",
+  "description": "MQTT publisher and message handler",
+  "main": "server_pub_save.js",
+  "scripts": {
+    "start": "node server_pub_save.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "mqtt": "^5.9.1",
